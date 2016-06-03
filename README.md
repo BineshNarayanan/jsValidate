@@ -27,16 +27,19 @@ After that just attach classes to your input elements, add a attribute "data-lab
 
 ###How to use these classes?
 **Case 1** : A mandatory text field which should only take alphabets and space, minimum length of the data should be 4 characters.
+
 **Usage**:
 ```html
   <input type="text" name="name" class="mandatory-text alphabetsandspace minlength-4" data-labelname="Name"></input>
 ```
 **Case 2** : A mandatory text field which should only take numbers and it should be atleast a 10 digit number.
+
 **Usage**:
 ```html
   <input type="text" name="mobilenumber" class="mandatory-text digits minlength-10"  data-labelname="Mobile Number"></input>
 ```
 **Case 3** : A mandatory dropdown 
+
 **Usage**:
 ```html
   <select class="mandatory-select" data-labelname="Number Of Members">
