@@ -19,8 +19,8 @@ After that just attach classes to your input elements, add a attribute "data-lab
 - mandatory-select
 - mandatory-text
 - digits
-- minlength-<length>
-- maxlength-<length>
+- minlength-%length%
+- maxlength-%length%
 - alphabetsandspace
 - alphanumeric
 - email
@@ -48,3 +48,6 @@ After that just attach classes to your input elements, add a attribute "data-lab
   <option value="2">Two</option
   </select>
 ```
+
+###Demo
+https://embed.plnkr.co/DU6QtCdfdE0nmwMsVtTY/
