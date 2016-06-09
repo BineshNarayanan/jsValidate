@@ -2,9 +2,13 @@
 
 This custom-validator plugin is intended for showing non-intrusive validation messages.
 
-include the jquery-<version>.js and jquery.validate.js in your script section. (Note : order of your include matters)
-
-After that just attach classes to your input elements, add a attribute "data-labelname" and the plugin will take care of the validation and its related messages.
+include the jquery.js and jquery.validate.js in your script section. (Note : order of your include matters) 
+eg. as shown below
+``` javascript
+<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="jquery.validate.min.js"></script>
+```
+After that just attach classes to your input elements, add a attribute "data-labelname" and rest the plugin will take care of validation and related messages.
 
 ###Currently it supports the following validations
 - mandatory fields 
