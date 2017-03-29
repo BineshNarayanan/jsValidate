@@ -55,3 +55,5 @@ After that just attach classes to your input elements, add a attribute "data-lab
 
 ###Demo
 https://embed.plnkr.co/DU6QtCdfdE0nmwMsVtTY/
+
+##Check version
