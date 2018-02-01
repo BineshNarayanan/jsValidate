@@ -1,6 +1,6 @@
 # jsValidate
 
-This custom-validator plugin is intended for showing non-intrusive validation messages.
+The custom-validator plugin is intended for showing non-intrusive validation messages.
 
 include the jquery.js and jquery.validate.js in your script section. (Note : order of your include matters) 
 eg. as shown below
